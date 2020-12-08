@@ -2,6 +2,17 @@
   text-align: center;
   background-color: coral;
 }
+.abcd {
+  text-align: right;
+  background-color: lightsalmon;
+}
+.abcde {
+  text-align: left;
+  background-color: lightslategray;
+}
+.state {
+  text-align: center;
+}
 
 .App-logo {
   height: 40vmin;

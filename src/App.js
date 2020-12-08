@@ -1,12 +1,24 @@
 // import logo from './logo.svg';
 import './App.css';
-import Greet from './Components/Greets';
+import Props from './Props';
+import State from './State';
 
 function App() {
   return (
-    <div className="App">
-      <Greet />
-      {/* <header className="App-header">
+    <div>
+      <div className="App">
+        <Props name="Apurva" />
+        </div>
+        <div className="abcd">
+          <Props name="Vishwa" />
+          </div>
+          <div className="abcde">
+          <Props name="Ankur" />
+        </div>
+        <div className = "state">
+        <State />
+        </div>
+        {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
