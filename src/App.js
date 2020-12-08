@@ -2,6 +2,7 @@
 import './App.css';
 import Props from './Props';
 import State from './State';
+import Counter from './Countersss/Counter';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <div className = "state">
         <State />
         </div>
+       <Counter/>
         {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
