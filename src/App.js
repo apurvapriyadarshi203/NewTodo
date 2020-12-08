@@ -1,13 +1,16 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Greet from './Components/Greet';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <Greet />
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
+          Hello World!!!!!
         </p>
         <a
           className="App-link"
@@ -15,9 +18,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React<br/>
+          Hello React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
