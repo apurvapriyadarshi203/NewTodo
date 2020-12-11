@@ -4,3 +4,7 @@
 .abcdefg {
     text-align: center;
 }
+
+.container {
+    flex-direction: row; 
+  }

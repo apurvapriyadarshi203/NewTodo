@@ -67,19 +67,21 @@ export class Form extends Component {
                             <option Value="Nodejs">Nodejs</option>
                             <option value="Javascript">JS</option>
                             <option Value="Html and CSS">Html and CSS</option>
-                        </select>
+                        </select><br /> <br/>
                     </div>
                     <div>
-                        <label>Gender</label>
+                        <label >Gender</label>
                         <RadioGroup arial-label="gender" value={this.setState.gender} onChange={this.handleGenderChange}>
-                            <FormControlLabel value ="female" control={<Radio />} label="female" />
-                            <FormControlLabel value ="Male" control={<Radio />} label="Male" />
-                            <FormControlLabel value ="Others" control={<Radio />} label="Others" />
-                        </RadioGroup>
+                            <div className ="conatiner">
+                            <FormControlLabel value = "female" control={<Radio />} label="female" />
+                            <FormControlLabel value = "Male" control={<Radio />} label="Male" />
+                            <FormControlLabel value = "Others" control={<Radio />} label="Others" />
+                            </div>
+                        </RadioGroup><br />
                     </div>
                     <div>
                         <label>Date of Biirth</label>
-                        <input type ="datetime-local" value ={this.state.birthday} onChange={this.handleBirthdayChange} />
+                        <input type ="datetime-local" value ={this.state.birthday} onChange={this.handleBirthdayChange} /><br /><br />
                     </div>
                 </div>
                 <button type="submit">Submit</button>
