@@ -13,12 +13,18 @@ class Counter extends Component {
             count : this.state.count + 1
         })
     }
+    Zeroo() {
+        this.setState({
+            count:this.state.count-this.state.count
+        })
+    }
 
     render() {
         return (
             <div>
                 <div>Count - {this.state.count}</div>
                 <button onClick={() => this.Increment()}>Click Here</button>
+                <button onClick={() =>this.Zeroo()}>Abcd</button>
             </div>
         )
     }

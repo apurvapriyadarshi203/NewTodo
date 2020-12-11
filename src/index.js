@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import Form1 from './BasicForm/Form1';
+// import '../src/BasicForm/Form.css';
+// import Counter from './Countersss/Counter';
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Form1 />
+    {/* <Counter /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

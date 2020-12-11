@@ -1,16 +1,16 @@
 // import logo from './logo.svg';
 import './App.css';
-import Props from './Props';
-import State from './State';
-import Counter from './Countersss/Counter';
+// import Props from './Props';
+// import State from './State';
+// import Counter from './Countersss/Counter';
 
 function App() {
   return (
     <div>
-      <div className="App">
+      {/* <div className="App">
         <Props name="Apurva" />
-        </div>
-        <div className="abcd">
+        </div> */}
+        {/* <div className="abcd">
           <Props name="Vishwa" />
           </div>
           <div className="abcde">
@@ -18,8 +18,8 @@ function App() {
         </div>
         <div className = "state">
         <State />
-        </div>
-       <Counter/>
+        </div> */}
+       {/* <Counter/> */}
         {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
