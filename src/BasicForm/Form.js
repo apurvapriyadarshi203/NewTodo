@@ -32,25 +32,25 @@ export class Form extends Component {
             topic: event.target.value
         })
     }
-    handleBirthdayChange = (event)=> {
+    handleBirthdayChange = (event) => {
         this.setState({
-            birthday:event.target.value
+            birthday: event.target.value
         })
     }
 
-    handleGenderChange =(event)=>{
+    handleGenderChange = (event) => {
         this.setState({
-            gender:event.target.value
+            gender: event.target.value
         })
     }
-    handleSubmit =event =>{
+    handleSubmit = event => {
         alert(`${this.state.username} ${this.state.password} ${this.state.topic} ${this.state.birthday} ${this.state.gender}`)
-        event.preventDefault()
+        event.preventDefault();
     }
 
     render() {
         return (
-            <form onSubmit = {this.handleSubmit}>
+            <form onSubmit={this.handleSubmit}>
                 <div>
                     <div>
                         <label>Username</label>
@@ -67,21 +67,21 @@ export class Form extends Component {
                             <option Value="Nodejs">Nodejs</option>
                             <option value="Javascript">JS</option>
                             <option Value="Html and CSS">Html and CSS</option>
-                        </select><br /> <br/>
+                        </select><br /> <br />
                     </div>
                     <div>
                         <label >Gender</label>
                         <RadioGroup arial-label="gender" value={this.setState.gender} onChange={this.handleGenderChange}>
-                            <div className ="conatiner">
-                            <FormControlLabel value = "female" control={<Radio />} label="female" />
-                            <FormControlLabel value = "Male" control={<Radio />} label="Male" />
-                            <FormControlLabel value = "Others" control={<Radio />} label="Others" />
+                            <div className="conatiner">
+                                <FormControlLabel value="female" control={<Radio />} label="female" />
+                                <FormControlLabel value="Male" control={<Radio />} label="Male" />
+                                <FormControlLabel value="Others" control={<Radio />} label="Others" />
                             </div>
                         </RadioGroup><br />
                     </div>
                     <div>
                         <label>Date of Biirth</label>
-                        <input type ="datetime-local" value ={this.state.birthday} onChange={this.handleBirthdayChange} /><br /><br />
+                        <input type="datetime-local" value={this.state.birthday} onChange={this.handleBirthdayChange} /><br /><br />
                     </div>
                 </div>
                 <button type="submit">Submit</button>
@@ -91,3 +91,4 @@ export class Form extends Component {
 }
 
 export default Form
+

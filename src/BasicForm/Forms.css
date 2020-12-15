@@ -1,10 +1,25 @@
-.bg {
+.body {
+    height: 100vh;
     background-color: coral;
+    justify-content: center;
+    display: flex;
 }
-.abcdefg {
-    text-align: center;
+.loginform {
+    background-color: lightgray;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 7%;
+    border: 2px solid greenyellow;
 }
 
 .container {
     flex-direction: row; 
   }
+  .heading {
+      border: 1px solid red;
+      padding: 5px;
+      background-color: lightgoldenrodyellow;
+      text-align: center;
+  }
+  

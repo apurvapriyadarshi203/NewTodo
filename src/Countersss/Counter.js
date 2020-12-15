@@ -24,6 +24,7 @@ class Counter extends Component {
             <div>
                 <div>Count - {this.state.count}</div>
                 <button onClick={() => this.Increment()}>Click Here</button>
+                {/* <button onClick ={this.Increment}>Click Here {this.state.count}</button> */}
                 <button onClick={() =>this.Zeroo()}>Abcd</button>
             </div>
         )
