@@ -13,15 +13,17 @@ import reportWebVitals from './reportWebVitals';
 // import HookCounterFour from './Hooks/HookCounterFour';
 // import HookCounterFive from './Hooks/HookCounterFive';
 // import '../src/TODO/Todo.css'
-import './TODO/Todo.css'
-import TodoList from './TODO/TodoList';
+// import './TODO/Todo.css'
+// import TodoList from './TODO/TodoList';
+import Gret from './Greetings/Gret';
 
 // import '../src/BasicForm/Form.css';
 // import Counter from './Countersss/Counter';
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <TodoList/>
+    {/* <TodoList/> */}
+    <Gret />
     {/* <Form1 /> */}
     {/* <Counter />
     <Count1 />

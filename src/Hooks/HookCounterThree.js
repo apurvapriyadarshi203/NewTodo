@@ -4,7 +4,8 @@ function HookCounterThree() {
     const [name, setname] = useState({ firstName: '', lastName: '' })
     return (
         <form>
-            <label>First Name</label>
+            <label>First Name</label>                                    
+                                                                               {/* Spread Operator */}
             <input type="text" value={name.firstName} onChange={e => setname({ ...name, firstName: e.target.value })} />
             <label>Last Name</label>
             {/* Spread Operator */}
