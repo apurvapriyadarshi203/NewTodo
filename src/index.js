@@ -15,15 +15,17 @@ import reportWebVitals from './reportWebVitals';
 // import '../src/TODO/Todo.css'
 // import './TODO/Todo.css'
 // import TodoList from './TODO/TodoList';
-import Gret from './Greetings/Gret';
+// import Gret from './Greetings/Gret';
+import Forms1 from './Formss/Forms1';
 
 // import '../src/BasicForm/Form.css';
 // import Counter from './Countersss/Counter';
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Forms1/>
     {/* <TodoList/> */}
-    <Gret />
+    {/* <Gret /> */}
     {/* <Form1 /> */}
     {/* <Counter />
     <Count1 />
